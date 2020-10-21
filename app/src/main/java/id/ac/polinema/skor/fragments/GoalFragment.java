@@ -44,7 +44,7 @@ public class GoalFragment extends Fragment {
 		binding.setFragment(this);
 		binding.setGoalScorer(goalScorer);
 		requestKey = GoalFragmentArgs.fromBundle(getArguments()).getRequestKey();
-		return binding.getroot();
+		return binding.getRoot();
 	}
 
 	public void onSaveClicked(View view) {
