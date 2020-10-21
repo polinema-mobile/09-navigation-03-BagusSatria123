@@ -88,7 +88,7 @@ public class ScoreFragment extends Fragment {
 		for (GoalScorer g : homeGoalScorerList) {
 			result.append(g.getName())
 					.append(" ")
-					.append(g.getminute())
+					.append(g.getMinute())
 					.append("\" ");
 		}
 		return result.toString();
@@ -97,7 +97,7 @@ public class ScoreFragment extends Fragment {
 	public String getAwayScorer() {
 		StringBuilder result = new StringBuilder();
 		for (GoalScorer g : awayGoalScorerList) {
-			result.append(g.getname())
+			result.append(g.getName())
 					.append(" ")
 					.append(g.getMinute())
 					.append("\" ");
